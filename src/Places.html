@@ -4,72 +4,75 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title> Places page</title>
         <link rel="icon" type="image/x-icon" href="back20.webp">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
+    <script src="index.js"></script>
     <body>
-        <div class="main">
-            <div class="navbar">
-                <div class="icon">
-                    <h1 class="logo"><img src="back20.webp" height="50px" width="100px" alt="Logo of our company">
-                        <span class="g">F</span>
-                        <span class="O">a</span>
-                        <span class="o">n</span>
-                        <span class="p">-</span>
-                        <span class="g">t</span>
-                        <span class="l">o</span>
-                        <span class="e">u</span>
-                        <span class="r">r</span>
-                    </h1>
+        <div class="container-fluid">
+            <div  class="text-bg-secondary p-3 w-100 border border-primary-subtle rounded-3">
+                <div class="navbar">
+                    <header class="mx-auto">
+                        <h1 class="logo"><img src="back20.webp" height="50px" width="100px" alt="Logo of our company">
+                            <span class="g">F</span>
+                            <span class="O">a</span>
+                            <span class="o">n</span>
+                            <span class="p">-</span>
+                            <span class="g">t</span>
+                            <span class="l">o</span>
+                            <span class="e">u</span>
+                            <span class="r">r</span>
+                        </h1>
+                    </header>
                 </div>
-            </div>
-            <div class="mainu">
                 <header>
-                    <ul>
-                        <li><a href="Home.html">Home</a></li>
-                        <li><a href="About-Us.html">About Us</a></li>
-                        <li><a href="Travel-Options.html">Travel Options</a></li>
-                        <li><a href="Service.html">Service</a></li>
-                        <li><a href="Other.html">Other</a></li>
-                        <li><a href="Contact-Us.html">Contact-Us</a></li>
-                    </ul>
-                </header>
-            </div>
-            <div class="fr">
-                <div class="search">
-                    <input class="srch" type="search" name="" placeholder="Type to text">
-                    <button><a href="#">Search</a></button>
+                    <nav class="navbar navbar-expand-sm bg-body-tertiary justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a  class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="About-Us.html">About Us</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Travel-Options.html">Travel Options</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Service.html">Service</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Other.html">Other</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Contact-Us.html">Contact-Us</a></li>
+                        </ul>
+                        <form action="https://www.google.com/search" method="get" class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Type to text" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </nav>
+            </header>
+                <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+                    <div class="text-center">
+                        <p>
+                            <h2 class="h2"><span class="we">WELCOME</span><span class="to"> TO THE LAND</span><span class="of"> OF ORIGINS</span></h2><br>
+                            Here in Ethiopia there are so many place to visit. These places give you the most unforgettable memories in your life.
+                            Come to Ethiopia and get your life satisfaction. Here are the lists of the most known and attractive places to visit in Ethiopia.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="par">
-                <p>
-                    <h2 class="h2"><span class="we">WELCOME</span><span class="to"> TO THE LAND</span><span class="of"> OF ORIGINS</span></h2><br>
-                    Here in Ethiopia there are so many place to visit. These places give you the most unforgettable memories in your life.
-                    Come to Ethiopia and get your life satisfaction. Here are the lists of the most known and attractive places to visit in Ethiopia.
-                </p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li>Gondar <image src="gondar.jpg" height="200px" width="200px"></image></li><br>
-                    <li>Lalibela <image src="lalibela.jpg" height="200px" width="200px"></image></li><br>
-                    <li>Jegol <image src="jegol.jpg" height="200px" width="200px"></image></li><br>
-                    <li>Tis abay <image src="tisabay.jpg" height="200px" width="200px"></image></li><br>
-                    <li>Ertale <image src="ertale.jpg" height="200px" width="200px"></image></li><br>
-                    <li>Axum <image src="axum.jpg" height="200px" width="200px"></image></li><br>
-                </ul>
-            </div>
-            <div class="vid">
-                <video src="vid1.mp4" height="200px" width="200px" poster="ertale.jpg" controls autoplay></video>
-            </div>
-            <div class="foo">
+                <div class="uls">
+                    <p class="text-center pt-3">Gondar</p><image class="img-fluid d-block mx-auto" src="gondar.jpg" alt="image of gondar" height="300px" width="300px"></image></li><br>
+                    <p class="text-center pt-3">Lalibela</p> <image class="img-fluid d-block mx-auto" src="lalibela.jpg" alt="image of lalibela" height="300px" width="300px"></image></li><br>
+                    <p class="text-center pt-3">Jegol</p> <image class="img-fluid d-block mx-auto" src="jegol.jpg" alt="image ofjegol" height="300px" width="300px"></image></li><br>
+                    <p class="text-center pt-3">Tis abay</p> <image class="img-fluid d-block mx-auto" src="tisabay.jpg" alt="image of tis abay" height="300px" width="300px"></image></li><br>
+                    <p class="text-center pt-3">Ertale</p> <image class="img-fluid d-block mx-auto" src="ertale.jpg" alt="image of ertale" height="300px" width="300px"></image></li><br>
+                    <p class="text-center pt-3">Axum</p><image class="img-fluid d-block mx-auto" src="axum.jpg" alt="image of axum" height="300px" width="300px"></image></li><br>
+                </div>
+                <div class="vid">
+                    <video src="vid1.mp4" height="200px" width="200px" poster="ertale.jpg" controls ></video>
+                    <p>Click to play</p>
+                </div>
                 <footer>
-                    <ul>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Telegram</a></li>
-                        <li><a href="#">Youtube</a></li>
-                    </ul>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a  class="nav-link active" href="#">Terms</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="#">Privacy</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.twitter.com">Twitter</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.facebook.com">Facebook</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.instagram.com">Instagram</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.telegram.com">Telegram</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.youtube.com">Youtube</a></li>
+                        </ul>
+                    </nav>
                 </footer>
             </div>
         </div>
