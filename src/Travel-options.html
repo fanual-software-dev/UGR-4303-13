@@ -4,105 +4,110 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title> Travel-Options page</title>
         <link rel="icon" type="image/x-icon" href="back20.webp">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
+    <script src="index.js"></script>
     <body>
-        <div class="main">
-            <div class="navbar">
-                <div class="icon">
-                    <h1 class="logo"><img src="back20.webp" height="50px" width="100px" alt="Logo of our company">
-                        <span class="g">F</span>
-                        <span class="O">a</span>
-                        <span class="o">n</span>
-                        <span class="p">-</span>
-                        <span class="g">t</span>
-                        <span class="l">o</span>
-                        <span class="e">u</span>
-                        <span class="r">r</span>
-                    </h1>
+        <div class="container-fluid">
+            <div  class="text-bg-secondary p-3 w-100 border border-primary-subtle rounded-3">
+                <div class="navbar">
+                    <header class="mx-auto">
+                        <h1 class="logo"><img src="back20.webp" height="50px" width="100px" alt="Logo of our company">
+                            <span class="g">F</span>
+                            <span class="O">a</span>
+                            <span class="o">n</span>
+                            <span class="p">-</span>
+                            <span class="g">t</span>
+                            <span class="l">o</span>
+                            <span class="e">u</span>
+                            <span class="r">r</span>
+                        </h1>
+                    </header>
                 </div>
-            </div>
-            <div class="mainu">
                 <header>
-                    <ul>
-                        <li><a href="Home.html">Home</a></li>
-                        <li><a href="About-Us.html">About Us</a></li>
-                        <li><a href="Places.html">Places</a></li>
-                        <li><a href="Service.html">Service</a></li>
-                        <li><a href="Other.html">Other</a></li>
-                        <li><a href="Contact-Us.html">Contact-Us</a></li>
-                    </ul>
-                </header>
-            </div>
-            <div class="fr">
-                <div class="search">
-                    <input class="srch" type="search" name="" placeholder="Type to text">
-                    <button><a href="#">Search</a></button>
+                    <nav class="navbar navbar-expand-sm bg-body-tertiary justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a  class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="About-Us.html">About Us</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Places.html">Places</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Service.html">Service</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Other.html">Other</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Contact-Us.html">Contact-Us</a></li>
+                        </ul>
+                        <form action="https://www.google.com/search" method="get" class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Type to text" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </nav>
+            </header>
+                <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+                    <div class="text-center">
+                        <p>
+                            <h2 class="h2"><span class="we">WELCOME</span><span class="to"> TO THE LAND</span><span class="of"> OF ORIGINS</span></h2><br>
+                            There are different travel options to the different tourist sites in ethiopia. We have provided both plane and car options.
+                            Here is a table that represents the Kilometers from Addis Ababa, the cost by plane and the cost by car.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="par">
-                <p>
-                    <h2 class="h2"><span class="we">WELCOME</span><span class="to"> TO THE LAND</span><span class="of"> OF ORIGINS</span></h2><br>
-                    There are different travel options to the different tourist sites in ethiopia. We have provided both plane and car options.
-                    Here is a table that represents the Kilometers from Addis Ababa, the cost by plane and the cost by car.
-                </p>
-            </div>
-            <div class="tab">
-                <table bgcolor="black">
-                    <tr bgcolor="grey" align="center">
-                        <th width="300px">Place</th>
-                        <th width="300px">Kilometers from Addis Ababa</th>
-                        <th width="300px">Cost by plane</th>
-                        <th width="300px">Cost by car</th>
-                    </tr>
-                    <tr bgcolor="gray" align="center">
-                        <td>Gondar</td>
-                        <td>748Km</td>
-                        <td>90$/4700ETB</td>
-                        <td>70$/3700ETB</td>
-                    </tr>
-                    <tr bgcolor="gray" align="center">
-                        <td>Lalibela</td>
-                        <td>780Km</td>
-                        <td>60$/3200ETB</td>
-                        <td>45$/2250ETB</td>
-                    </tr>
-                    <tr bgcolor="gray" align="center">
-                        <td>Jegol</td>
-                        <td>371Km</td>
-                        <td>62$/3150ETB</td>
-                        <td>50$/2550ETB</td>
-                    </tr>
-                    <tr bgcolor="gray" align="center">
-                        <td>Tisabay(Blue nile fall</td>
-                        <td>562Km</td>
-                        <td>80$/4200ETB</td>
-                        <td>45$/2700ETB</td>
-                    </tr>
-                    <tr bgcolor="gray" align="center">
-                        <td>Ertale</td>
-                        <td>581Km</td>
-                        <td>90$/4700ETB</td>
-                        <td>75$/3900ETB</td>
-                    </tr>
-                    <tr bgcolor="gray" align="center">
-                        <td>Axum</td>
-                        <td>1000Km</td>
-                        <td>190$/9450ETB</td>
-                        <td>100$/5000ETB</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="foo">
+                <div class="table-responsive">
+                    <p class="text-center text-warning"> Table for different travel options</p>
+                    <table class="table">
+                        <tr>
+                            <th width="300px">Place</th>
+                            <th width="300px">Kilometers from Addis Ababa</th>
+                            <th width="300px">Cost by plane</th>
+                            <th width="300px">Cost by car</th>
+                        </tr>
+                        <tr>
+                            <td>Gondar</td>
+                            <td>748Km</td>
+                            <td>90$/4700ETB</td>
+                            <td>70$/3700ETB</td>
+                        </tr>
+                        <tr>
+                            <td>Lalibela</td>
+                            <td>780Km</td>
+                            <td>60$/3200ETB</td>
+                            <td>45$/2250ETB</td>
+                        </tr>
+                        <tr>
+                            <td>Jegol</td>
+                            <td>371Km</td>
+                            <td>62$/3150ETB</td>
+                            <td>50$/2550ETB</td>
+                        </tr>
+                        <tr>
+                            <td>Tisabay(Blue nile fall</td>
+                            <td>562Km</td>
+                            <td>80$/4200ETB</td>
+                            <td>45$/2700ETB</td>
+                        </tr>
+                        <tr>
+                            <td>Ertale</td>
+                            <td>581Km</td>
+                            <td>90$/4700ETB</td>
+                            <td>75$/3900ETB</td>
+                        </tr>
+                        <tr>
+                            <td>Axum</td>
+                            <td>1000Km</td>
+                            <td>190$/9450ETB</td>
+                            <td>100$/5000ETB</td>
+                        </tr>
+                    </table>
+                </div>
                 <footer>
-                    <ul>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Telegram</a></li>
-                        <li><a href="#">Youtube</a></li>
-                    </ul>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a  class="nav-link active" href="#">Terms</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="#">Privacy</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.twitter.com">Twitter</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.facebook.com">Facebook</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.instagram.com">Instagram</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.telegram.com">Telegram</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.youtube.com">Youtube</a></li>
+                        </ul>
+                    </nav>
                 </footer>
             </div>
         </div>
