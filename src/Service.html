@@ -4,72 +4,74 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title> Service page</title>
         <link rel="icon" type="image/x-icon" href="back20.webp">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
+    <script src="index.js"></script>
     <body>
-        <div class="main">
-            <div class="navbar">
-                <div class="icon">
-                    <h1 class="logo"><img src="back20.webp" height="50px" width="100px" alt="Logo of our company">
-                        <span class="g">F</span>
-                        <span class="O">a</span>
-                        <span class="o">n</span>
-                        <span class="p">-</span>
-                        <span class="g">t</span>
-                        <span class="l">o</span>
-                        <span class="e">u</span>
-                        <span class="r">r</span>
-                    </h1>
+        <div class="container-fluid">
+            <div  class="text-bg-secondary p-3 w-100 border border-primary-subtle rounded-3">
+                <div class="navbar">
+                    <header class="mx-auto">
+                        <h1 class="logo"><img src="back20.webp" height="50px" width="100px" alt="Logo of our company">
+                            <span class="g">F</span>
+                            <span class="O">a</span>
+                            <span class="o">n</span>
+                            <span class="p">-</span>
+                            <span class="g">t</span>
+                            <span class="l">o</span>
+                            <span class="e">u</span>
+                            <span class="r">r</span>
+                        </h1>
+                    </header>
                 </div>
-            </div>
-            <div class="mainu">
                 <header>
-                    <ul>
-                        <li><a href="Home.html">Home</a></li>
-                        <li><a href="About-Us.html">About Us</a></li>
-                        <li><a href="Places.html">Places</a></li>
-                        <li><a href="Travel-Options.html">Travel Options</a></li>
-                        <li><a href="Other.html">Other</a></li>
-                        <li><a href="Contact-Us.html">Contact-Us</a></li>
-                    </ul>
-                </header>
-            </div>
-            <div class="fr">
-                <div class="search">
-                    <input class="srch" type="search" name="" placeholder="Type to text">
-                    <button><a href="#">Search</a></button>
+                    <nav class="navbar navbar-expand-sm bg-body-tertiary justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a  class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="About-Us.html">About Us</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Places.html">Places</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Travel-Options.html">Travel Options</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Other.html">Other</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="Contact-Us.html">Contact-Us</a></li>
+                        </ul>
+                        <form action="https://www.google.com/search" method="get" class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Type to text" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </nav>
+            </header>
+                <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+                    <div class="text-center">
+                        <p>
+                            <h2 class="h2"><span class="we">WELCOME</span><span class="to"> TO THE LAND</span><span class="of"> OF ORIGINS</span></h2><br>
+                            In Ethiopia there are so many star hotels that are built surrounding the beauitful tourist sites.
+                            we have presented to you some of the services that are provided by these hotels. By using 
+                            our tour tavel agency you can get five percent discount. You can also get 
+                            online booking by signing up to our website. we listed some of the hotels that work together with us.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="par">
-                <p>
-                    <h2 class="h2"><span class="we">WELCOME</span><span class="to"> TO THE LAND</span><span class="of"> OF ORIGINS</span></h2><br>
-                    In Ethiopia there are so many star hotels that are built surrounding the beauitful tourist sites.<br>
-                    we have presented to you some of the services that are provided by these hotels. By using <br>
-                    our tour tavel agency you can get five percent discount. You can also get <br>
-                    online booking by signing up to our website. we listed some of the hotels that work together with us.
-                </p>
-            </div>
-            <div>
-                <ul>
-                    <li> Haile resort at Gondar</li>
-                    <li> Lidetu Ayalew Hotel at Lalibela</li>
-                    <li> Harar Ras Hotel at Harar</li>
-                    <li> Blu nile Avante resort at Bahirdar</li>
-                    <li> Dini Hotel at Semera</li>
-                    <li> Yared Zema Hotel at Axum</li>
-                </ul>
-
-            </div>
-            <div class="foo">
+                <div class="w-100">
+                    <div class="w-100"><p class="text-center pt-3"> Haile resort at Gondar</p><br><image class="img-fluid d-block mx-auto" src="gondar-resort-outer-side-view-haile-hotel-and-resort-gallery-ethiopia-haile.jpg" alt="haile resort gondar" width="400px" height="400px"></div>
+                    <div class="w-100"><p class="text-center pt-3"> Lidetu Ayalew Hotel at Lalibela</p><br><image class="img-fluid d-block mx-auto" src="front-view-of-main-building.jpg" alt="lidetu hotel lalibela" width="400px" height="400px"></image></div>
+                    <div class="w-100"><p class="text-center pt-3"> Harar Ras Hotel at Harar</p><br><image class="img-fluid d-block mx-auto" src="sumeya-hotel.jpg" alt="harar ras hotel harar" width="400px" height="400px"></image></div>
+                    <div class="w-100"><p class="text-center pt-3"> Blu nile Avante resort at Bahirdar</p><br><image class="img-fluid d-block mx-auto" src="blunile.avif" alt="blu nile avante bahirdar" width="400px" height="400px"></image></div>
+                    <div class="w-100"><p class="text-center pt-3">Dini Hotel at Semera</p><br><image class="img-fluid d-block mx-auto" src="dini-hotel.jpg" alt="dini hotel semera" width="400px" height="400px"></image></div>
+                    <div class="w-100"><p class="text-center pt-3">Yared Zema Hotel at Axum</p><br><image class="img-fluid d-block mx-auto" src="yared-zema-hotel.avif" alt="yared zema hotel axum" width="400px" height="400px"></image></div>
+                </div>
+                <br><br>
                 <footer>
-                    <ul>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Telegram</a></li>
-                        <li><a href="#">Youtube</a></li>
-                    </ul>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a  class="nav-link active" href="#">Terms</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="#">Privacy</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.twitter.com">Twitter</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.facebook.com">Facebook</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.instagram.com">Instagram</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.telegram.com">Telegram</a></li>
+                            <li class="nav-item"><a  class="nav-link active" href="https://www.youtube.com">Youtube</a></li>
+                        </ul>
+                    </nav>
                 </footer>
             </div>
         </div>
